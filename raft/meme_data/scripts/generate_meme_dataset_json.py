@@ -4,9 +4,9 @@ import json
 import sys
 
 # ✅ 실제 경로 설정
-IMAGES_DIR = Path("/workspaces/gorilla/raft/meme_data/memes/5_privilege-denying-dude_meme_pinterest")
+IMAGES_DIR = Path("/workspaces/gorilla/raft/meme_data/memes/10_feminist-nazi")
 DOCS_DIR = Path("/workspaces/gorilla/raft/meme_data/docs/gender")
-OUTPUT_JSON = Path("/workspaces/gorilla/raft/meme_data/scripts/privilege-denying-dude.json")
+OUTPUT_JSON = Path("/workspaces/gorilla/raft/meme_data/scripts/feminist-nazi.json")
 
 
 def clean_keyword(folder_name):
